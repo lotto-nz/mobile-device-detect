@@ -2,6 +2,12 @@
 
 Helpers for handling mobile devices in javascript.
 
+## Fork Customisation
+
+Update ua-parser version 0.7.22.
+Issue has been raised in the original repo - https://github.com/duskload/mobile-device-detect/issues/50
+Once this issue is resolved, you can disregard the forked library and use https://github.com/duskload/mobile-device-detect instead
+
 ## Installation
 
 To install, you can use npm or yarn:
@@ -32,7 +38,7 @@ export default {
 </script>
 
 ```
-pass it to template: 
+pass it to template:
 
 ```html
 <template>
@@ -83,7 +89,7 @@ For react example, you can look into separated package [react-device-detect](htt
 | isIPad13           | boolean  | returns true/false if device is iPad and running on iOS13                              |
 | isIPod13           | boolean  | returns true/false if device is iPod and running on iOS13                              |
 | isElectron         | boolean  | returns true/false if running on `Electron`                                            |
-| isEdgeChromium     | boolean  | returns true/false if browser is `Edge Chromium`                                       | 
+| isEdgeChromium     | boolean  | returns true/false if browser is `Edge Chromium`                                       |
 | isLegacyEdge       | boolean  | returns true if browser is `Edge`                                                      |
 | isWindows          | boolean  | returns true/false if os is `Windows`                                                  |
 | isMacOs            | boolean  | returns true/false if os is `Mac OS`                                                   |
