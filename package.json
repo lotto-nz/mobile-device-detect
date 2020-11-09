@@ -1,5 +1,5 @@
 {
-  "name": "mobile-device-detect",
+  "name": "@lotto-nz/mobile-device-detect",
   "version": "1.0.0",
   "description": "Helpers for handling mobile devices",
   "main": "dist/index.js",
