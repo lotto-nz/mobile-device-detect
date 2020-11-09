@@ -1,6 +1,6 @@
 {
   "name": "@lotto-nz/mobile-device-detect",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Helpers for handling mobile devices",
   "main": "dist/index.js",
   "typings": "./index.d.ts",
